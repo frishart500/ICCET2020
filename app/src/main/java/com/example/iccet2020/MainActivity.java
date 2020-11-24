@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         signinBnt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // Переход на LoginActivity (окно с входом)
                 Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
                 startActivity(intent);
             }
