@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ICCET2020</string>
+    <string name="sign_in">Вход</string>
+    <string name="sign_in2">Войти</string>
+    <string name="registration">Регистрация</string>
+    <string name="email">Email</string>
+    <string name="password">Пароль</string>
 </resources>
