@@ -23,6 +23,7 @@ public class LoginActivity extends AppCompatActivity {
     // Инициализация элементов интерфейса
     private void init()
     {
+        //Назаро не...
         signinBtn = findViewById(R.id.sign_in);
         email = findViewById(R.id.email);
         password = findViewById(R.id.password);
