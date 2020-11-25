@@ -18,12 +18,15 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        init();
+
+
     }
 
     // Инициализация элементов интерфейса
     private void init()
     {
-        //Назаро не...
         signinBtn = findViewById(R.id.sign_in);
         email = findViewById(R.id.email);
         password = findViewById(R.id.password);
