@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         signinBnt.setOnClickListener(BTNs);
         registrationBtn.setOnClickListener(BTNs);
     }
-
+    //sdf
     View.OnClickListener BTNs = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
